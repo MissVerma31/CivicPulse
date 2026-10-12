@@ -1,0 +1,47 @@
+name: my_first_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.1
+  flutter_secure_storage: ^11.2.0
+  image_picker: ^1.2.3
+  geolocator: ^14.0.3
+  permission_handler: ^13.0.2
+  geocoding: ^4.0.0
+  http: ^1.2.2
+  google_fonts: ^6.2.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/civicpulse_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/civicpulse_icon.png"
+  web:
+    generate: true
+    image_path: "assets/images/civicpulse_icon.png"
+    background_color: "#F7F9F5"
+    theme_color: "#3D6B34"
